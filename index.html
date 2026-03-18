@@ -3,10 +3,186 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>html</title>
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Shanbal Zinabe | Portfolio</title>
 </head>
 <body>
-<h1>my first website</h1>
-<p>About gym website</p>
+
+    <header class="header">
+        <div class="logo"><span>Shanbal</span> Zinabe</div>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+         
+            <a href="#skill">Skill</a>
+            <a href="#project">Project</a>
+             <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home" class="scroll">
+        <div class="home-content">
+            <div class="image">
+                <img src="me.jpg" alt="Shanbal">
+            </div>
+
+            <div class="home-text">
+                <h3>Hello, It's Me</h3>
+                <h1>Shanbal Zinabe</h1>
+                <h3>And I'm a <span>Front-end Developer</span></h3>
+                <p>3rd-year Computer Science student at Wolkite University. 
+                   I build high-performance web applications and solve complex 
+                   problems with a disciplined.</p>
+
+                   <div class="btn-group">
+        <a href="your-cv-file.pdf" download class="btn">Download CV</a>
+       
+    </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="scroll">
+        <div class="about-container">
+            
+            <div class="Aboutme">
+                <h1>About Me</h1> 
+      <p>
+        I am a 3rd-year Computer Science student at <strong>Wolkite University</strong>. 
+        My passion lies in <strong>Front-end Development</strong>, <br> where I bridge the gap 
+        between complex back-end logic and elegant user interfaces. 
+    </p>
+    
+    <p>
+        Throughout my academic career, I’ve learned languages like <strong>C++, Java, and JavaScript</strong>, 
+        using them to build systems <br> that range from traffic management to interactive web platforms. 
+     <br>  I thrive on solving technical challenges and constantly refining my workflow with tools like <strong>GitHub and SQL</strong>.
+    </p>
+
+    <p>
+        In my spare time, I switch gears to my creative side—<strong>Video Editing</strong>. 
+        I enjoy using <strong>CapCut</strong> to create high-energy edits and cinematic stories, 
+        a hobby that helps me keep my creative thinking sharp outside of the coding world.
+    </p>
+            </div>
+        </div>
+    </section>
+
+  <!-- skill page -->
+   <section id="skill" class="scroll">
+    <div class="title"><h1>My Skills</h1></div>
+    
+    <div class="skills-container">
+        <div class="skill-category">
+            <h2 class="abi">Programming Languages</h2>
+            <div class="skills-list">
+                <div class="lang" title="C++"><i class='bx bxl-c-plus-plus'></i><h6>C++</h6></div>
+                <div class="lang" title="Java"><i class='bx bxl-java'></i><h6>Java</h6></div>
+               
+            </div>
+        </div>
+        <br>
+
+        <div class="skill-category">
+            <h2 class="abi">Web & Databases</h2>
+            <div class="skills-list">
+                <div class="lang" title="HTML5"><i class='bx bxl-html5'></i><h6>HTML5</h6></div>
+                <div class="lang" title="CSS3"><i class='bx bxl-css3'></i><h6>CSS3</h6></div>
+                <div class="lang" title="SQL"><i class='bx bxs-data'></i><h6>SQL</h6></div>
+            </div>
+        </div>
+<br>
+        <div class="skill-category">
+            <h2 class="abi">Tools & Version Control</h2> <br>
+            <div class="skills-list">
+                <div class="lang" title="GitHub"><i class='bx bxl-github'></i><span>GitHub</span></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- //project page -->
+<section id="project" class="scroll">
+    <div class="title"><h1>My Projects</h1></div>
+    <div class="project-container">
+        
+        <div class="project-card">
+            <div class="icon"><h6><i class='bx bxs-traffic'></i></h6></div>
+            <img src="traffic.jfif" alt="Traffic Project">
+            <h3>Traffic Management System</h3> 
+            <p>Tech Stack: C++ | Data Structures</p>
+            <a href="#" class="btn">Go to Repository</a>
+        </div>
+
+        <div class="project-card">
+            <div class="icon"><h6><i class='bx bx-dumbbell'></i></h6></div>
+            <img src="gym.jfif" alt="Royal Fitness Project"> <h3>Royal Fitness Website</h3> 
+            <p>Tech Stack: HTML | CSS Grid | JS</p>
+            <a href="#" class="btn">Go to Repository</a>
+        </div>
+
+        <div class="project-card">
+            <div class="icon"><h6><i class='bx bx-edit'></i></h6></div>
+            <img src="quiz2.jfif" alt="Quiz System Project"> <h3>Academic Quiz System</h3> 
+            <p>Tech Stack: Java | Swing/OOP</p>
+            <a href="#" class="btn">Go to Repository</a>
+        </div>
+
+    </div>
+</section>
+
+ <section id="contact" class="scroll">
+    <div class="contact-title">
+        <h1>Contact <span>Me</span></h1>
+        <p>I'm always happy to talk about code or video editing!</p>
+    </div>
+
+    <div class="contact-page">
+        <form action="#">
+            <div class="field">
+                <label>Your Name</label>
+                <input type="text" placeholder="Enter your name" required>
+            </div>
+
+            <div class="field">
+                <label>Your Email</label>
+                <input type="email" placeholder="Enter your email" required>
+            </div>
+
+            <div class="field">
+                <label>Phone Number (Optional)</label>
+                <input type="tel" placeholder="Enter your phone number">
+            </div>
+
+            <div class="field">
+                <label>Message</label>
+                <textarea rows="5" placeholder="Write your message here..."></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">Send Your message </button>
+        </form> 
+    </div>
+</section>
+            
+       
+    </section>
+
+    <footer class="footer">
+        <div class="Contact">
+            <h5>Connect with me</h5>
+            <br>
+            <div class="social-icons">
+                <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+            </div>
+        </div>
+        <div class="copyRight">
+            © 2026 Shanbal Zinabe | Wolkite, Ethiopia
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
