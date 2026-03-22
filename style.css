@@ -678,3 +678,84 @@ span {
         padding: 40px 5% 20px;
     }
 }
+/* --- FULL RESPONSIVE FIX FOR MOBILE --- */
+
+@media (max-width: 991px) {
+    /* 1. Fix Header Padding */
+    .header {
+        padding: 15px 5%;
+    }
+
+    .navbar {
+        display: none; /* Hides desktop links for now */
+    }
+
+    /* 2. Fix Home Section (Stack image and text) */
+    #home {
+        padding-top: 100px;
+        height: auto;
+    }
+
+    .home-content {
+        flex-direction: column-reverse; /* Hexagon moves to top */
+        text-align: center;
+        gap: 40px;
+    }
+
+    .home-text h1 {
+        font-size: 38px;
+    }
+
+    .home-text p {
+        margin: 20px auto;
+    }
+
+    .btn-group {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    /* 3. Fix About Section */
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .image {
+        width: 250px;
+        height: 250px;
+        margin: 0 auto;
+    }
+
+    /* 4. Fix Skills & Projects (1 column on phone) */
+    .skills-container, 
+    .project-container {
+        grid-template-columns: 1fr;
+    }
+
+    .skill-category {
+        max-width: 100%;
+    }
+
+    /* 5. Fix Contact Section */
+    .contact-content {
+        flex-direction: column;
+    }
+
+    .contact-form-wrapper {
+        width: 100%;
+        padding: 20px;
+    }
+}
+
+/* Extra small phones */
+@media (max-width: 480px) {
+    .home-text h1 {
+        font-size: 30px;
+    }
+
+    .Aboutme h1, .title h1 {
+        font-size: 32px;
+    }
+}
