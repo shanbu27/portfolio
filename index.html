@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
@@ -43,9 +43,9 @@
 
 
     <div class="home_icon">
-        <a href="#" class="icon"><i class='bx bxl-facebook-circle'></i></a>
-                <a href="#" class="icon"><i class='bx bxl-instagram'></i></a>
-                <a href="#" class="icon"><i class='bx bxl-github'></i></a>
+        <a href="https://www.facebook.com/Shanbe Zinabe" target="_blank" class="icon"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="https://www.instagram.com/shanbu10" target="_blank" class="icon"><i class='bx bxl-instagram'></i></a>
+                <a href="https://github.com/shanbu27" target="_blank" class="icon"><i class='bx bxl-github'></i></a>
            </div>
     </div>
 
@@ -149,58 +149,79 @@
     </div>
 </section>
 
-<section id="contact" class="scroll">
-    <div class="contact-title">
-        <h1>Contact <span>Me</span></h1>
-        <p>I'm always happy to talk about code or video editing!</p>
-    </div>
-
-    <div class="contact-page">
-        <div class="contact-options">
-            <a href="mailto:yourname@email.com" class="option">
-                <i class='bx bxs-envelope'></i>
-                <span>Email</span>
-            </a>
-            <a href="tel:+251900000000" class="option">
-                <i class='bx bxs-phone'></i>
-                <span>Phone</span>
-            </a>
-            <a href="https://facebook.com/yourprofile" target="_blank" class="option">
-                <i class='bx bxl-facebook-circle'></i>
-                <span>Facebook</span>
-            </a>
+<section id="contact" class="contact-section">
+    <div class="contact-container">
+        <div class="contact-header">
+            <h1>Contact <span>Me</span></h1>
+            <p>Let's build something amazing or discuss a video project!</p>
         </div>
 
-        <form action="#">
-            <div class="field">
-                <label>Your Name</label>
-                <input type="text" placeholder="Enter your name" required>
-            </div>
-            <div class="field">
-        <label>Your Email</label>
-        <input type="email" placeholder="Enter your email" required>
-    </div>
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="info-card">
+                    <i class='bx bxs-phone-call'></i>
+                    <div class="details">
+                        <span>Call Me</span>
+                        <a href="tel:+251927516100">+251 927 516 100</a>
+                    </div>
+                </div>
 
-    <div class="field">
-        <label>Message</label>
-        <textarea rows="5" placeholder="Write your message here..." required></textarea>
-    </div>
-            <button type="submit" class="submit-btn">Send Your message </button>
-        </form> 
+                <div class="info-card">
+                    <i class='bx bxs-envelope'></i>
+                    <div class="details">
+                        <span>Email Me</span>
+                        <a href="mailto:shanbufkr@gmail.com">shanbufkr@gmail.com</a>
+                    </div>
+                </div>
+                
+                <div class="info-card">
+                    <i class='bx bxs-map'></i>
+                    <div class="details">
+                        <span>Location</span>
+                        <p>Wolkite, Ethiopia</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form-wrapper">
+                <form action="#" class="contact-form">
+                    <div class="field-group">
+                        <div class="field">
+                            <label>Full Name</label>
+                            <input type="text" placeholder="e.g. Abebe Bikila" required>
+                        </div>
+                        <div class="field">
+                            <label>Email Address</label>
+                            <input type="email" placeholder="email@example.com" required>
+                        </div>
+                    </div>
+                    
+                    <div class="field">
+                        <label>Subject</label>
+                        <input type="text" placeholder="Project Inquiry">
+                    </div>
+
+                    <div class="field">
+                        <label>Message</label>
+                        <textarea rows="5" placeholder="Tell me about your project..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">
+                        Send Message <i class='bx bxs-paper-plane'></i>
+                    </button>
+                </form>
+            </div>
+        </div>
     </div>
 </section>
-            
-       
-    </section>
-
     <footer class="footer">
         <div class="Contact">
             <h5>Connect with me</h5>
             <br>
             <div class="social-icons">
-                <a href="#"><i class='bx bxl-facebook-circle'></i></a>
-                <a href="#"><i class='bx bxl-instagram'></i></a>
-                <a href="#"><i class='bx bxl-github'></i></a>
+                 <a href="https://www.facebook.com/Shanbe Zinabe" target="_blank" class="icon"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="https://www.instagram.com/shanbu10" target="_blank" class="icon"><i class='bx bxl-instagram'></i></a>
+                <a href="https://github.com/shanbu27" target="_blank" class="icon"><i class='bx bxl-github'></i></a>
             </div>
         </div>
         <div class="copyRight">
@@ -212,7 +233,7 @@
         document.addEventListener('DOMContentLoaded', function() {
             var typed = new Typed(".typing-text", {
                 strings: ["Front-end Developer", "Video Editor"],
-                typeSpeed: 100,
+                typeSpeed: 50,
                 backSpeed: 60,
                 backDelay: 1000,
                 loop: true,
@@ -222,7 +243,6 @@
         });
     </script>
     
-    <script src="script.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
