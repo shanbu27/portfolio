@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Shanbel Zinabe
 
-### 3rd Year Computer Science Student | Front-End Developer
+### 3rd Year Computer Science Student | Full-Stack Developer
 
 <p align="left">
   <img src="https://komarev.com/ghpvc/?username=shanbu27&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
@@ -12,9 +12,9 @@
 ## 🚀 About Me
 
 - 🎓 **Education:** 3rd Year Computer Science student at **Wolkite University**
-- 💻 **Expertise:** Front-End Development with **HTML, CSS, and JavaScript**
-- 🛠️ **Current Focus:** Building responsive and user-friendly web interfaces
-- 🌱 **Learning:** Enhancing my JavaScript skills and exploring modern frameworks
+- 💻 **Expertise:** Full-Stack Web Development
+- 🛠️ **Current Focus:** Building responsive, user-friendly, and database-driven web applications
+- 🌱 **Learning:** Enhancing my JavaScript & PHP skills and exploring modern web frameworks
 - 📈 **Goal:** Growing step by step and contributing to impactful projects
 
 ---
@@ -34,7 +34,7 @@
   </a>
 </p>
 
-### ⚙️ Back-End & Databases
+### ⚙️ Back-End & Database
 <p align="left">
   <a href="https://www.php.net/" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="45" height="45"/>
@@ -52,4 +52,12 @@
   <a href="https://github.com/" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" alt="github" width="45" height="45"/>
   </a>
+</p>
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=shanbu27&show_icons=true&theme=radical" alt="Shanbel's GitHub Stats" />
 </p>
