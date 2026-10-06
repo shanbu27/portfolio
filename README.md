@@ -3,8 +3,8 @@
 ### 3rd Year Computer Science Student | Front-End Developer
 
 <p align="left">
-  <img src="https://komarev.com/ghpvc/?username=shanbelzinabe&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
-  <img src="https://img.shields.io/github/followers/shanbelzinabe?label=Followers&style=flat" alt="Followers" />
+  <img src="https://komarev.com/ghpvc/?username=shanbu27&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
+  <img src="https://img.shields.io/github/followers/shanbu27?label=Followers&style=flat" alt="Followers" />
 </p>
 
 ---
@@ -44,5 +44,5 @@
 
 ## 📊 GitHub Stats
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=shanbelzinabe&show_icons=true&theme=radical" alt="Shanbel's GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=shanbu27&show_icons=true&theme=radical" alt="Shanbel's GitHub Stats" />
 </p>
